@@ -1,0 +1,116 @@
+// This is a hotfix related to https://wordpress.org/support/topic/css-from-tec-affecting-page-settings-panel/
+.css-1wkpk1y-Flex-ItemsColumn {
+  height: auto !important;
+}
+
+.traveledmap-trip-edit-block {
+  .components-panel {
+	h2 {
+	  font-size: 1.5rem;
+
+	  &::before {
+		content: none;
+	  }
+	}
+
+	.components-panel__body {
+	  padding-top: 0;
+
+	  &.is-opened > .components-panel__body-title {
+		margin-top: 0;
+		margin-bottom: 0;
+	  }
+	;
+
+	  .components-panel__body-toggle {
+		span {
+		  position: absolute;
+		  right: 0;
+		  top: 23px;
+		}
+	  }
+	}
+
+	.components-panel__row {
+	  flex-direction: column;
+	  align-items: flex-start;
+	  margin-top: 10px;
+
+	  p {
+		font-size: 13px;
+		margin-top: 0;
+	  }
+
+	  .components-toggle-control {
+		margin-bottom: 5px;
+
+		.components-base-control__field {
+		  margin-bottom: 0;
+		}
+
+		.components-base-control__help {
+		  font-size: 12px;
+		}
+	  }
+	}
+
+	.input-100 {
+	  input {
+		max-width: 100px;
+	  }
+	}
+  }
+
+  .map-iframe {
+	width: 100%;
+	height: 500px;
+  }
+
+
+  .ml-auto {
+	margin-left: auto;
+  }
+
+  .mb-0 {
+	margin-bottom: 0;
+  }
+
+  .mt-5 {
+	margin-top: 5px;
+  }
+
+  .ml-10 {
+	margin-left: 10px;
+  }
+
+  .mr-10 {
+	margin-right: 10px;
+  }
+
+  .d-flex {
+	display: flex;
+  }
+
+  .flex-center {
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+  }
+
+  .justify-content-between {
+	justify-content: space-between;
+  }
+
+  .flex-1 {
+	flex-grow: 1;
+  }
+
+  iframe
+  .text-center {
+	text-align: center;
+  }
+
+  .note {
+	font-size: 80%;
+  }
+}
